@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biography Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+
+   <style>
+    html,body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      background:rgb(2,0,36);
+      background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,196,106,1) 35%, rgba(0,212,255,1) 100%);
+
+
+
+      font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .name {
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 2px;
+    }
+
+    .wrapper {
+      background-color:#add8e6;
+
+      max-width: 50%;
+      display: flex;
+      flex-direction: row;
+      height: 50%;
+    }
+
+    .left, .right {
+      background-color:#de5d83;
+
+      margin:5px;
+      max-width: 50%;
+      flex: 1;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    .left {
+      align-items:center;
+      justify-content:center;
+    }
+
+    .profile-picture {
+      border-radius: 50%;
+    }
+
+    .social-links {
+      list-style: none;
+      padding-left:0px;
+      font-size:18px;
+    }
+
+    .social-links li {
+      display:inline-block;
+      margin-right:8px;
+    }
+
+    .social-links a {
+      text-decoration:none;
+      padding:4px;
+    }
+
+    .social-links a:hover {
+    background-color:rgba(0, 0, 0, 0.1);
+    }
+   </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div class="left">
+       <img src="Adam-Cropped.jpg" alt="Adam-Circle" width="200" />
+        <h1>Adam Hopkins</h1>
+        <h4>Customer Service Agent/Web Developer</h4>
+      </div>
+
+    <div class="right">
+       <p class="bio">
+        Current Call Center agent currently looking to become a web developer working on
+        portfolios and looking to attend school this year to attain a bachlors in Web Development.
+        Thank you for visiting my website.
+        </p>
+        <ul class="social-links">
+          <li><a href="https://github.com/adamhopkins1">My GitHub Repository</a></li>
+          <li><a href="https://www.linkedin.com/in/adam-hopkins-562189125/">LinkedIn Profile</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+
+  </html>
